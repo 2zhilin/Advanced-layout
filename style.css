@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header_icon {
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-size: 18px;
+    max-width: 73.2px;
+    min-height: 105px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons {
+    max-width: 68.41px;
+    min-height: 85.04px;
+    flex-shrink: 0;
+}
+
+.leaves {
+    display: flex;
+    align-items: flex-end;
+}
+
+.left_leave {
+    max-width: 18.18px;
+    max-height: 45.5px;
+}
+
+.center_leave {
+    max-width: 24.79px;
+    max-height: 49.89px;
+}
+
+.right_leave {
+    max-width: 18.84px;
+    max-height: 8.79px;
+}
+
+.cup {
+    max-width: 68.41px;
+    max-height: 26.36px;
+}
+
+.saucer {
+    width: 61.8px;
+    height: 6.28px;
+}
+
+.brand_cont {
+    max-width: 73.2px;
+    max-height: 21.44px;
+}
+
+.brand {
+    width: 73.2px;
+    height: 21.44px;
+    font-size: 18px;
+}
+.nav {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.account {
+    display: flex;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+}
