@@ -1,23 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
+body {
+    width: 1599px;
+}
+
 header {
     min-height: 200px;
     background-color: #FFFFFF;
-
 }
+
 .header_cont {
-    border: 1px solid black;
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
     max-width: 1200px;
-    height: 142px;
     margin: 30px auto 28px;
-    align-items: center;
+    height: 142px;
+    position: relative;
+    left: -9px;
 }
 .header_icon_cont {
     font-family: 'IM Fell Great Primer SC', serif;
@@ -25,50 +28,61 @@ header {
     font-weight: 400;
     width: 73.2px;
     min-height: 105px;
-    position: relative;
-    top: -19px;
-    left: -1px;
-    border: 1px solid black;
+    margin: 0 0 37px 0;
 }
 
-.brand_cont {
-    max-width: 73.2px;
-    max-height: 21.44px;
+.header_icon {
+    width: 68.41px;
+    height: 85.04px;
+    margin: 0 2.46px -1px 2.34px;
+}
+
+.brandname_cont {
+    width: 73.2px;
+    height: 21.44px;
 }
 
 .nav {
     width: 582px;
     height: 27px;
+    margin: 57px 124.62px 58px 235.18px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 .links {
-    font-family: "open sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     color: #151618;
     display: flex;
-    justify-content: space-between;
+    gap: 72px;
+    align-items: center;
 }
 
-.account {
+.interaction {
     display: flex;
     justify-content: space-between;
     width: 180px;
     height: 29px;
+    margin: 56px 5px 57px 0;
 }
 
-.shop_account {
+.bag_account {
     display: flex;
     justify-content: space-between;
     width: 58px;
     height: 29px;
+    margin-right: 100px;
+}
+
+.bag {
+    margin-right: 20px;
 }
 
 .loupe {
     width: 22px;
     height: 22px;
+    margin: 3.5px;
 }
+
 a {
     color: inherit;
     text-decoration: none;
-    
 }
